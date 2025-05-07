@@ -107,3 +107,56 @@ footer p:last-of-type {
     font-size: 0.9em;
     color: #bdc3c7;
 }
+.page-section {
+    padding: 40px 25px;
+    background-color: #fdfdff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 30, 60, 0.07);
+    margin-bottom: 45px;
+}
+
+.page-section:last-of-type {
+    margin-bottom: 25px;
+}
+
+.page-section h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #002244;
+    font-size: 2.3em;
+    font-weight: 600;
+}
+
+#companies .section-intro-text {
+    font-size: 1.1em;
+    line-height: 1.75;
+    color: #3a3f47;
+    max-width: 880px;
+    margin: 0 auto 22px auto;
+    text-align: center;
+}
+
+#companies .section-intro-text:last-of-type {
+    margin-bottom: 35px;
+}
+
+#companies h3 {
+    text-align: center;
+    color: #004080;
+    margin-top: 45px;
+    margin-bottom: 28px;
+    font-size: 2.0em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #d0e0f0;
+    padding-bottom: 12px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#companies h3:first-of-type {
+    margin-top: 25px;
+}
+
